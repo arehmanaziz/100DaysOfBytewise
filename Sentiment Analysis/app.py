@@ -36,12 +36,6 @@ if col1.button("Predict Sentiment"):
         else:
             st.header(f"Predicted Sentiment: {sentiment} ☹️")
 
-
-
-
-            
-
-
         # # Displaying the sentiment analysis results in a pie chart
 
         # data = {'Sentiment': [sentiment], 'Percentage': [100]}
