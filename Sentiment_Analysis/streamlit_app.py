@@ -5,7 +5,7 @@ import json
 
 # Load the saved model and vectorizer
 
-with open('sentiment_model.pkl', 'rb') as model_file:
+with open('Sentiment_Analysis/sentiment_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 def predict(text):
